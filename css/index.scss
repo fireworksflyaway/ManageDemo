@@ -35,14 +35,16 @@ nav a{
 }
 
 .searchDiv{
-    width:300px;
+    width:400px;
     margin:auto;
     padding:30px;
+    display: flex;
 }
 
-.searchInput{
+#searchInput{
     width:200px;
     margin: auto 5px;
+
 }
 
 .staffTable{

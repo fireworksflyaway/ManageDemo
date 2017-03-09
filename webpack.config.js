@@ -23,8 +23,12 @@ module.exports = {
                 loaders:['style-loader','css-loader','sass-loader']
             },
             {
-                test:/\.(png|jpg)$/,
+                test:/\.(png|jpg|svg)$/,
                 loader:'url-loader?limit=40000'
+            },
+            {
+                test: /\.(eot|woff2|woff|ttf)$/,
+                loader: "file-loader"
             },
             {
                 test:/\.jsx?$/,
