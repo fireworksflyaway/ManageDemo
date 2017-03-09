@@ -2,6 +2,7 @@
  * Created by ImageDBUser on 2017/3/2.
  */
 import React from 'react';
+import {Link} from 'react-router';
 
 export default React.createClass({
     render(){
@@ -9,6 +10,7 @@ export default React.createClass({
             <div>
                 <nav>
                     <label className="navLabel">Manage Demo</label>
+                    <Link to="/">Home</Link>
                 </nav>
                 {this.props.children}
             </div>

@@ -1,3 +1,4 @@
+$navColor: deepskyblue;
 #basicDiv{
     width:1000px;
     min-height: 800px;
@@ -7,7 +8,10 @@
 
 nav{
     height: 50px;
-    background-color: deepskyblue;
+    background-color: $navColor;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav .navLabel{
@@ -15,7 +19,19 @@ nav .navLabel{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: x-large;
     line-height: 48px;
-    margin: 0 5px;
+    padding: 0 5px;
+
+}
+
+nav a{
+    color:white;
+    padding: 0 5px;
+}
+
+.colorSpan{
+    background-color: green;
+    width:35px;
+    height:35px;
 }
 
 .searchDiv{

@@ -8,7 +8,7 @@ import { Router, Route, hashHistory, IndexRoute, browserHistory } from 'react-ro
 import Nav from './modules/nav';
 import Home from './modules/home';
 import AddForm from './modules/addForm';
-import './css/index.css';
+import './css/index.scss';
 let item=document.createElement("div");
 item.id="basicDiv";
 document.body.appendChild(item);
